@@ -1,4 +1,4 @@
-package com.pi.pison.support;
+package org.pi.pison;
 
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
@@ -13,11 +13,13 @@ import java.util.Set;
  * @createAt 2020-09-09 10:56
  * @since 1.0
  */
-public class Pisonx {
+public class Pison {
 
+    private Pison() {
+    }
 
     /***
-     * 深度合并
+     * merge deep
      * @param source
      * @param target
      * @throws JSONException
